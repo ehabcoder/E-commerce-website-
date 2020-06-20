@@ -1,0 +1,58 @@
+body{margin:0px;padding:0px;}
+
+.bg-banner{background:url("../assets/images/bg5.jpg")no-repeat top center;background-size:cover;background-color:#ccc;}
+.bg-banner .jumbotron{background:transparent;padding-top: 250px;
+    padding-bottom: 250px;color:#fff!important;}
+	.bg-banner .jumbotron h1{color:#fff!important;}
+
+.bg-banner .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.bg-banner .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: transparent;
+    font-size: 16px;
+}
+.bg-banner .navbar-default .navbar-nav>li>a {
+    color: #dad9d9;font-size:16px;
+}
+.bg-banner .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+	font-size:16px;transition:all 0.5s ease-in-out;
+}
+.bg-banner .navbar-nav {
+    float: none;							/*This is important
+											for navbar
+											center align*/
+    display: table;
+    margin: 0 auto;
+}
+
+.bg-banner  .navbar-brand {
+    float: none;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;color:#fff;font-size:24px;
+}
+
+.bg-banner .bb{margin: 40px 0px 60px 0px;}
+
+.overlay1 {
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(42, 54, 59, 0.5);
+}
+
+
+
+
+/* .black {
+z-index: 1000;
+} */
